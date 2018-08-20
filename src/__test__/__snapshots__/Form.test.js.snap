@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Component matches the snapshot 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <h1>
+      My Brilliant Weather App
+    </h1>
+  </div>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="form"
+    >
+      <form
+        className="form"
+        onSubmit={[Function]}
+      >
+        <input
+          autoFocus={true}
+          className="location-search-input"
+          onChange={[Function]}
+          placeholder="location..."
+          type="text"
+          value=""
+        />
+        <button
+          className="location-search-button"
+        >
+          Find locations
+        </button>
+      </form>
+      <div>
+        <span>
+          
+        </span>
+        <div />
+      </div>
+    </div>
+  </div>
+</div>
+`;
