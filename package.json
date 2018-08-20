@@ -5,6 +5,8 @@
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -12,5 +14,18 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "A weather app built with React.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamrankhmsd/mybrilliantweatherapp.git"
+  },
+  "author": "Kamran Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamrankhmsd/mybrilliantweatherapp/issues"
+  },
+  "homepage": "https://github.com/kamrankhmsd/mybrilliantweatherapp#readme"
 }
