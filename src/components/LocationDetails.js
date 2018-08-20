@@ -25,6 +25,10 @@ class LocationDetails extends Component {
     getWeather = () => {
         let woeid = this.props.match.params.id;
         this.setState({ message: 'LOADING...' });
+        /*
+            -- The weather api uses CORS so I have appended the api URL 
+            -- with https://cors-anywhere.herokuapp.com/. 
+        */
         fetch(`https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/${woeid}/`)
             .then(response => response.json())
             .then(details => {
