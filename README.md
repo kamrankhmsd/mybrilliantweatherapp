@@ -1,6 +1,8 @@
 MyBrilliantWeatherApp
 A weather app built with React
 
+For live app, visit https://enigmatic-mesa-33381.herokuapp.com/
+
 This app is built for a test with create-react-app.
 
 This app consists of a home page where a user can search for locations. The locations are rendered as a list. The user can click on a location which will redirect to a location page with the location id to fetch detailed weather infromation.
